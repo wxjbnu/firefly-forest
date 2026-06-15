@@ -78,7 +78,7 @@ xcodebuild -project FireflyForest.xcodeproj \
 | URL | https://rosewood.itch.io/firefly-forest |
 | Support URL | https://rosewood.itch.io/firefly-forest |
 | Marketing URL | (optional) |
-| Privacy Policy URL | (your published privacy.html URL) |
+| Privacy Policy URL | https://firefly-forest.vercel.app/privacy |
 | Primary Category | Games |
 | Secondary Category | Family |
 | Content Rating | 4+ |
