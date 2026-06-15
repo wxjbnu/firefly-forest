@@ -1,0 +1,49 @@
+name: FireflyForest
+options:
+  bundleIdPrefix: com.rosewood
+  deploymentTarget:
+    iOS: "13.0"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    TARGETED_DEVICE_FAMILY: "1"
+
+targets:
+  FireflyForest:
+    type: application
+    platform: iOS
+    sources:
+      - path: FireflyForestGame
+        excludes:
+          - image_prompts
+          - generated_assets
+          - generated_assets_v2
+
+    settings:
+      base:
+        INFOPLIST_FILE: FireflyForestGame/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.rosewood.fireflyforest
+        PRODUCT_NAME: FireflyForest
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: NO
+        DEVELOPMENT_TEAM: 7ZR52UNP43
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: Apple Development
+        CODE_SIGNING_REQUIRED: YES
+        CODE_SIGNING_ALLOWED: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ENABLE_BITCODE: NO
+        OTHER_LDFLAGS: ["-ObjC"]
+        FRAMEWORK_SEARCH_PATHS: ["$(SDKROOT)/System/Library/Frameworks"]
+    dependencies:
+      - framework: SpriteKit.framework
+        embed: false
+      - framework: UIKit.framework
+        embed: false
+      - framework: Foundation.framework
+        embed: false
+      - framework: CoreGraphics.framework
+        embed: false
+      - framework: QuartzCore.framework
+        embed: false

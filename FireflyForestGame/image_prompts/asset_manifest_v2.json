@@ -1,0 +1,11 @@
+[
+  {"asset_name":"forest_bg_v2","filename":"forest_bg_v2.png","category":"background","source_dir":"generated_assets_v2"},
+  {"asset_name":"ff_firefly_gold_v2","filename":"ff_firefly_gold_v2.png","category":"item","source_dir":"generated_assets_v2"},
+  {"asset_name":"ff_firefly_green_v2","filename":"ff_firefly_green_v2.png","category":"item","source_dir":"generated_assets_v2"},
+  {"asset_name":"ff_firefly_blue_v2","filename":"ff_firefly_blue_v2.png","category":"item","source_dir":"generated_assets_v2"},
+  {"asset_name":"ff_player_lantern_v2","filename":"ff_player_lantern_v2.png","category":"player","source_dir":"generated_assets_v2"},
+  {"asset_name":"ff_lantern_button_v2","filename":"ff_lantern_button_v2.png","category":"ui","source_dir":"generated_assets_v2"},
+  {"asset_name":"ff_info_panel_v2","filename":"ff_info_panel_v2.png","category":"ui","source_dir":"generated_assets_v2"},
+  {"asset_name":"ff_button_wide_v2","filename":"ff_button_wide_v2.png","category":"ui","source_dir":"generated_assets_v2"},
+  {"asset_name":"ff_play_panel_v2","filename":"ff_play_panel_v2.png","category":"ui","source_dir":"generated_assets_v2"}
+]

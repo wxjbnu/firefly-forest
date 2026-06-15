@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027889BF73E8CB6F88215FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E7DD48713C5F73691EFBE6 /* UIKit.framework */; };
+		1B99092C58AB563B7D816EC0 /* ff_player_lantern.png in Resources */ = {isa = PBXBuildFile; fileRef = E25E6DC75582FBDA4B893E38 /* ff_player_lantern.png */; };
+		1C67D80E69DC11509316C683 /* forest_bg_forest_bg.imageset.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FC86B8DE96B0C593DA4B3D /* forest_bg_forest_bg.imageset.png */; };
+		1F375616EC22CBC8AA004BFE /* ff_play_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFEB2B13D564ADA83019BC5 /* ff_play_panel.png */; };
+		27931ACA2599A05EDC92A068 /* ff_firefly_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CC7F40BD8E3D5743F4A401 /* ff_firefly_green.png */; };
+		3BD29CBD6BD070DCC97103FB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F293DE59419B58CAD3B99068 /* QuartzCore.framework */; };
+		41E59BBB2F405320CE0B4858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A46929A37ADEF7C2C0352A /* Assets.xcassets */; };
+		4A393008EB8B9E47D529C0C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B5679D8D8C616BB7ECDE4D /* AppDelegate.m */; };
+		5D4ACE0A1CCE9DBCF867C769 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E56F38CB3FC615BCAA51FB6 /* SpriteKit.framework */; };
+		63723A5036C3C2EB0D712A86 /* Backgrounds_Backgrounds.imageset.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D6CAEE6A109F64A31D8E906 /* Backgrounds_Backgrounds.imageset.png */; };
+		7813A1B8AC10683437E7796D /* ff_button_wide.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEDEB2DE9CC3DEBB8BF5C85 /* ff_button_wide.png */; };
+		7BC752C4604A1CB22B0E5425 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 52590FB1EEFCA028105F7B57 /* MainMenuScene.m */; };
+		7D2D49D9662D76C37466E5A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE99CEE63440F4775ACB2075 /* ViewController.m */; };
+		8886C4B4A89211EFFDB9A69E /* Backgrounds_generated_assets.png in Resources */ = {isa = PBXBuildFile; fileRef = E9604E7B45A4FE7AF63B53E3 /* Backgrounds_generated_assets.png */; };
+		923ABC5E0364AACFE6D82862 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 01197ADDBD44C7D5C2B79F29 /* GameScene.m */; };
+		AE941FF18875982E21F5F51B /* SSFireflyForestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F312C62F1D66D2B9698F91F0 /* SSFireflyForestScene.m */; };
+		B2290D3DE98E1BE0C2FE73D4 /* ff_firefly_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 93EAA444BB18392C966BB27A /* ff_firefly_blue.png */; };
+		BE060C3F0EF83130C5E010DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0FC9B63D72E06DDC1E5E27 /* CoreGraphics.framework */; };
+		CC51691C54CE1F9A173A4829 /* Backgrounds.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D993E16CC0A50005101DFC /* Backgrounds.png */; };
+		CD429EB1D62DAF7260B19EF3 /* ff_info_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 672EA51FEDA984CF5E860572 /* ff_info_panel.png */; };
+		D626BD742D6537F466DCBCB2 /* SettingsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFBF047311A7123D17C22EF /* SettingsScene.m */; };
+		E1433973A86C7FFB73105656 /* ff_firefly_gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 3109B31AB81D04B446F44B60 /* ff_firefly_gold.png */; };
+		E60CAFE8168D798885F733C4 /* forest_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D10F4BAA8F2586AE4B5F46A4 /* forest_bg.png */; };
+		E71BB24EB14CD539212DC209 /* forest_bg_generated_assets.png in Resources */ = {isa = PBXBuildFile; fileRef = B207C92A73C46763AF506C78 /* forest_bg_generated_assets.png */; };
+		E8CC212D1AB6B13AD2DD37B9 /* ff_lantern_button.png in Resources */ = {isa = PBXBuildFile; fileRef = E77029F03B28F255D453FC52 /* ff_lantern_button.png */; };
+		ED9CA661AB61273E2C5B61BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A56807FC3A68D9189FEB922 /* LaunchScreen.storyboard */; };
+		EEE7AE34E2913BFF98FEE17A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5426DBF4E173472439E71D /* Foundation.framework */; };
+		F261EEE4D5F335CFE9C811A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9791686CF2E2241E91AAE643 /* main.m */; };
+		F4D07EB62D585E53B9655342 /* LevelSelectScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA86D4C60E3BA378870C39 /* LevelSelectScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01197ADDBD44C7D5C2B79F29 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		16E52368D13A62056D310056 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B0FC9B63D72E06DDC1E5E27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreGraphics.framework; sourceTree = "<group>"; };
+		1FFBF047311A7123D17C22EF /* SettingsScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsScene.m; sourceTree = "<group>"; };
+		21DAF22EEFE80FDB429102BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3109B31AB81D04B446F44B60 /* ff_firefly_gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_firefly_gold.png; sourceTree = "<group>"; };
+		32FC86B8DE96B0C593DA4B3D /* forest_bg_forest_bg.imageset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forest_bg_forest_bg.imageset.png; sourceTree = "<group>"; };
+		3FFEB2B13D564ADA83019BC5 /* ff_play_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_play_panel.png; sourceTree = "<group>"; };
+		42A46929A37ADEF7C2C0352A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AEA86D4C60E3BA378870C39 /* LevelSelectScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelSelectScene.m; sourceTree = "<group>"; };
+		4E56F38CB3FC615BCAA51FB6 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpriteKit.framework; sourceTree = "<group>"; };
+		52590FB1EEFCA028105F7B57 /* MainMenuScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
+		57FDA63E7E249238311777BD /* MainMenuScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		672EA51FEDA984CF5E860572 /* ff_info_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_info_panel.png; sourceTree = "<group>"; };
+		7FEDEB2DE9CC3DEBB8BF5C85 /* ff_button_wide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_button_wide.png; sourceTree = "<group>"; };
+		8D6CAEE6A109F64A31D8E906 /* Backgrounds_Backgrounds.imageset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Backgrounds_Backgrounds.imageset.png; sourceTree = "<group>"; };
+		92CC7F40BD8E3D5743F4A401 /* ff_firefly_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_firefly_green.png; sourceTree = "<group>"; };
+		93EAA444BB18392C966BB27A /* ff_firefly_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_firefly_blue.png; sourceTree = "<group>"; };
+		9791686CF2E2241E91AAE643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97C36D2184B1DD31526E3C4F /* FireflyForest.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FireflyForest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B5679D8D8C616BB7ECDE4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE99CEE63440F4775ACB2075 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AECE7A800847613766BF1492 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B207C92A73C46763AF506C78 /* forest_bg_generated_assets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forest_bg_generated_assets.png; sourceTree = "<group>"; };
+		B4394E6EA583084910EC9678 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		BFB2E86C73C307BE8BDF88C8 /* SSFireflyForestScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSFireflyForestScene.h; sourceTree = "<group>"; };
+		C7E7DD48713C5F73691EFBE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UIKit.framework; sourceTree = "<group>"; };
+		CD5426DBF4E173472439E71D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Foundation.framework; sourceTree = "<group>"; };
+		D10F4BAA8F2586AE4B5F46A4 /* forest_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forest_bg.png; sourceTree = "<group>"; };
+		D11870A74FF3742B9832A757 /* LevelSelectScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevelSelectScene.h; sourceTree = "<group>"; };
+		D16C705D26D73122C6B54E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E25E6DC75582FBDA4B893E38 /* ff_player_lantern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_player_lantern.png; sourceTree = "<group>"; };
+		E77029F03B28F255D453FC52 /* ff_lantern_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ff_lantern_button.png; sourceTree = "<group>"; };
+		E9604E7B45A4FE7AF63B53E3 /* Backgrounds_generated_assets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Backgrounds_generated_assets.png; sourceTree = "<group>"; };
+		F293DE59419B58CAD3B99068 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuartzCore.framework; sourceTree = "<group>"; };
+		F312C62F1D66D2B9698F91F0 /* SSFireflyForestScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSFireflyForestScene.m; sourceTree = "<group>"; };
+		F3D993E16CC0A50005101DFC /* Backgrounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Backgrounds.png; sourceTree = "<group>"; };
+		FD23B36BD8E16AD61B14D754 /* SettingsScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsScene.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2FA7AD941B4DF01C9E50124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4ACE0A1CCE9DBCF867C769 /* SpriteKit.framework in Frameworks */,
+				027889BF73E8CB6F88215FAD /* UIKit.framework in Frameworks */,
+				EEE7AE34E2913BFF98FEE17A /* Foundation.framework in Frameworks */,
+				BE060C3F0EF83130C5E010DE /* CoreGraphics.framework in Frameworks */,
+				3BD29CBD6BD070DCC97103FB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1458316BC03E324B802B0875 = {
+			isa = PBXGroup;
+			children = (
+				8BDB8263169A3E811A4EAE73 /* FireflyForestGame */,
+				2F75DF31B522786844F328A3 /* Frameworks */,
+				4193C32EDE1526BF287DA9E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F75DF31B522786844F328A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B0FC9B63D72E06DDC1E5E27 /* CoreGraphics.framework */,
+				CD5426DBF4E173472439E71D /* Foundation.framework */,
+				F293DE59419B58CAD3B99068 /* QuartzCore.framework */,
+				4E56F38CB3FC615BCAA51FB6 /* SpriteKit.framework */,
+				C7E7DD48713C5F73691EFBE6 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4193C32EDE1526BF287DA9E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97C36D2184B1DD31526E3C4F /* FireflyForest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BDB8263169A3E811A4EAE73 /* FireflyForestGame */ = {
+			isa = PBXGroup;
+			children = (
+				AECE7A800847613766BF1492 /* AppDelegate.h */,
+				A0B5679D8D8C616BB7ECDE4D /* AppDelegate.m */,
+				42A46929A37ADEF7C2C0352A /* Assets.xcassets */,
+				B4394E6EA583084910EC9678 /* GameScene.h */,
+				01197ADDBD44C7D5C2B79F29 /* GameScene.m */,
+				D16C705D26D73122C6B54E64 /* Info.plist */,
+				0A56807FC3A68D9189FEB922 /* LaunchScreen.storyboard */,
+				D11870A74FF3742B9832A757 /* LevelSelectScene.h */,
+				4AEA86D4C60E3BA378870C39 /* LevelSelectScene.m */,
+				9791686CF2E2241E91AAE643 /* main.m */,
+				57FDA63E7E249238311777BD /* MainMenuScene.h */,
+				52590FB1EEFCA028105F7B57 /* MainMenuScene.m */,
+				FD23B36BD8E16AD61B14D754 /* SettingsScene.h */,
+				1FFBF047311A7123D17C22EF /* SettingsScene.m */,
+				BFB2E86C73C307BE8BDF88C8 /* SSFireflyForestScene.h */,
+				F312C62F1D66D2B9698F91F0 /* SSFireflyForestScene.m */,
+				16E52368D13A62056D310056 /* ViewController.h */,
+				AE99CEE63440F4775ACB2075 /* ViewController.m */,
+				BB7F78012E1B5DBFB1EB740A /* background_backup_before_real_wild_20260613_114100 */,
+				A18D54136645A2B5B9E406FD /* generated_assets_backup_before_v2_alpha_fix_20260613_112306 */,
+			);
+			path = FireflyForestGame;
+			sourceTree = "<group>";
+		};
+		A18D54136645A2B5B9E406FD /* generated_assets_backup_before_v2_alpha_fix_20260613_112306 */ = {
+			isa = PBXGroup;
+			children = (
+				F3D993E16CC0A50005101DFC /* Backgrounds.png */,
+				7FEDEB2DE9CC3DEBB8BF5C85 /* ff_button_wide.png */,
+				93EAA444BB18392C966BB27A /* ff_firefly_blue.png */,
+				3109B31AB81D04B446F44B60 /* ff_firefly_gold.png */,
+				92CC7F40BD8E3D5743F4A401 /* ff_firefly_green.png */,
+				672EA51FEDA984CF5E860572 /* ff_info_panel.png */,
+				E77029F03B28F255D453FC52 /* ff_lantern_button.png */,
+				3FFEB2B13D564ADA83019BC5 /* ff_play_panel.png */,
+				E25E6DC75582FBDA4B893E38 /* ff_player_lantern.png */,
+				D10F4BAA8F2586AE4B5F46A4 /* forest_bg.png */,
+			);
+			path = generated_assets_backup_before_v2_alpha_fix_20260613_112306;
+			sourceTree = "<group>";
+		};
+		BB7F78012E1B5DBFB1EB740A /* background_backup_before_real_wild_20260613_114100 */ = {
+			isa = PBXGroup;
+			children = (
+				8D6CAEE6A109F64A31D8E906 /* Backgrounds_Backgrounds.imageset.png */,
+				E9604E7B45A4FE7AF63B53E3 /* Backgrounds_generated_assets.png */,
+				32FC86B8DE96B0C593DA4B3D /* forest_bg_forest_bg.imageset.png */,
+				B207C92A73C46763AF506C78 /* forest_bg_generated_assets.png */,
+			);
+			path = background_backup_before_real_wild_20260613_114100;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AA474FA7FA5470CA5AA1878 /* FireflyForest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FBFAB73E636CA563FD7306 /* Build configuration list for PBXNativeTarget "FireflyForest" */;
+			buildPhases = (
+				9017A0CF92516E7064095627 /* Sources */,
+				25B09883D04328D46F166785 /* Resources */,
+				E2FA7AD941B4DF01C9E50124 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireflyForest;
+			packageProductDependencies = (
+			);
+			productName = FireflyForest;
+			productReference = 97C36D2184B1DD31526E3C4F /* FireflyForest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA71672334CAC954C93FDE95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4AA474FA7FA5470CA5AA1878 = {
+						DevelopmentTeam = 7ZR52UNP43;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1A03F59ADC42B261CFA9960B /* Build configuration list for PBXProject "FireflyForestTrail" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1458316BC03E324B802B0875;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA474FA7FA5470CA5AA1878 /* FireflyForest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25B09883D04328D46F166785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E59BBB2F405320CE0B4858 /* Assets.xcassets in Resources */,
+				CC51691C54CE1F9A173A4829 /* Backgrounds.png in Resources */,
+				63723A5036C3C2EB0D712A86 /* Backgrounds_Backgrounds.imageset.png in Resources */,
+				8886C4B4A89211EFFDB9A69E /* Backgrounds_generated_assets.png in Resources */,
+				ED9CA661AB61273E2C5B61BA /* LaunchScreen.storyboard in Resources */,
+				7813A1B8AC10683437E7796D /* ff_button_wide.png in Resources */,
+				B2290D3DE98E1BE0C2FE73D4 /* ff_firefly_blue.png in Resources */,
+				E1433973A86C7FFB73105656 /* ff_firefly_gold.png in Resources */,
+				27931ACA2599A05EDC92A068 /* ff_firefly_green.png in Resources */,
+				CD429EB1D62DAF7260B19EF3 /* ff_info_panel.png in Resources */,
+				E8CC212D1AB6B13AD2DD37B9 /* ff_lantern_button.png in Resources */,
+				1F375616EC22CBC8AA004BFE /* ff_play_panel.png in Resources */,
+				1B99092C58AB563B7D816EC0 /* ff_player_lantern.png in Resources */,
+				E60CAFE8168D798885F733C4 /* forest_bg.png in Resources */,
+				1C67D80E69DC11509316C683 /* forest_bg_forest_bg.imageset.png in Resources */,
+				E71BB24EB14CD539212DC209 /* forest_bg_generated_assets.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9017A0CF92516E7064095627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A393008EB8B9E47D529C0C0 /* AppDelegate.m in Sources */,
+				923ABC5E0364AACFE6D82862 /* GameScene.m in Sources */,
+				F4D07EB62D585E53B9655342 /* LevelSelectScene.m in Sources */,
+				7BC752C4604A1CB22B0E5425 /* MainMenuScene.m in Sources */,
+				AE941FF18875982E21F5F51B /* SSFireflyForestScene.m in Sources */,
+				D626BD742D6537F466DCBCB2 /* SettingsScene.m in Sources */,
+				7D2D49D9662D76C37466E5A5 /* ViewController.m in Sources */,
+				F261EEE4D5F335CFE9C811A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A56807FC3A68D9189FEB922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21DAF22EEFE80FDB429102BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CA906F1BF110AE1859306DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4F989B5FFBA0E095262C1AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZR52UNP43;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/System/Library/Frameworks",
+					"\".\"",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FireflyForestGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rosewood.fireflyforesttrail;
+				PRODUCT_NAME = FireflyForestTrail;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5206AF93EE96DC01B71D856C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZR52UNP43;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/System/Library/Frameworks",
+					"\".\"",
+				);
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FireflyForestGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rosewood.fireflyforesttrail;
+				PRODUCT_NAME = FireflyForestTrail;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84F8975F5DC89C42309C48B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A03F59ADC42B261CFA9960B /* Build configuration list for PBXProject "FireflyForestTrail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F8975F5DC89C42309C48B3 /* Debug */,
+				1CA906F1BF110AE1859306DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84FBFAB73E636CA563FD7306 /* Build configuration list for PBXNativeTarget "FireflyForest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5206AF93EE96DC01B71D856C /* Debug */,
+				4F989B5FFBA0E095262C1AE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA71672334CAC954C93FDE95 /* Project object */;
+}

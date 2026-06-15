@@ -1,0 +1,11 @@
+[
+  {"asset_name":"forest_bg","filename":"forest_bg.png","category":"background","size_hint":"1179x2556","prompt":"Vertical night forest background for mobile collecting game, bamboo grove and pond hints, layered dark foliage, warm floating glow pockets, clear center exploration area, anime-inspired, no text."},
+  {"asset_name":"ff_firefly_gold","filename":"ff_firefly_gold.png","category":"item","size_hint":"192x192","prompt":"Single golden firefly sprite with clear glowing abdomen, translucent wings, transparent background, no text."},
+  {"asset_name":"ff_firefly_green","filename":"ff_firefly_green.png","category":"item","size_hint":"192x192","prompt":"Single green firefly sprite with clear glowing abdomen, translucent wings, transparent background, no text."},
+  {"asset_name":"ff_firefly_blue","filename":"ff_firefly_blue.png","category":"item","size_hint":"192x192","prompt":"Single blue firefly sprite with clear glowing abdomen, translucent wings, transparent background, no text."},
+  {"asset_name":"ff_player_lantern","filename":"ff_player_lantern.png","category":"player","size_hint":"220x220","prompt":"Single handheld lantern catcher sprite, warm glow, transparent background, no text."},
+  {"asset_name":"ff_lantern_button","filename":"ff_lantern_button.png","category":"ui","size_hint":"420x150","prompt":"Single lantern control button, night forest style, transparent background, no text."},
+  {"asset_name":"ff_info_panel","filename":"ff_info_panel.png","category":"ui","size_hint":"520x150","prompt":"Single rounded instruction panel with firefly glow decorations, transparent background, no text."},
+  {"asset_name":"ff_button_wide","filename":"ff_button_wide.png","category":"ui","size_hint":"620x170","prompt":"Single wide rounded forest button with warm gold outline, transparent background, no text."},
+  {"asset_name":"ff_play_panel","filename":"ff_play_panel.png","category":"ui","size_hint":"700x980","prompt":"Single large rounded dark forest play field panel with subtle border, transparent background, no text."}
+]
